@@ -131,8 +131,7 @@ function doWhatItSays() {
     } else {
       // We will then print the contents of data
       var dataArr = data.split(",");
-      console.log(dataArr[0]);
-      console.log(dataArr[1]);
+      
       command = dataArr[0];
       userSearch = dataArr[1];
 
